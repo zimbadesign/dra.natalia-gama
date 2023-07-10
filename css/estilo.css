@@ -1,0 +1,702 @@
+/* DRA. NATÁLIA GAMA - 2023 */
+/* CSS ZIMBA DESIGN @zimbacomunica */
+/* THIAGO GREGÓRIO @thiagofcgregorio */
+
+
+
+html{scroll-behavior: smooth;}
+:focus {outline:0 !important;}
+/*body{zoom: 85%}*/
+
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//* LANDING *//* LANDING *//**//* LANDING *//* LANDING *//* LANDING */
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+
+/* TOPO */ /* TOPO */ /* TOPO */ /* TOPO */ /* TOPO */ /* TOPO */  /* TOPO */ 
+
+.slider-intro{
+  background-image: url(../imgs/background-slider-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+/*  background-attachment: fixed;*/
+}
+
+.topo .logo{
+  width: 165px;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+  color: #5f4566;
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0 0 3px 0;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover{
+  color: #70547a;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link span{
+  background-color: #5f4566;
+  color: #fff;
+  padding: 7px 23px 10px 23px;
+  border-radius: 55px;
+  font-weight: bold;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link span:hover{
+  background-color: #70547a;
+}
+
+
+/* SLIDER PRINCIPAL */ 
+
+.slider .foto img{
+  width: 400px;
+  padding: 55px 0;
+}
+
+.slider h5{
+  color: #727176;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+
+.slider h1{
+  color: #5f4566;
+  font-size: 3.7rem;
+  font-weight: bold;
+  padding: 0 0 10px 0;
+}
+
+.slider a{
+  text-decoration: none;
+}
+
+.slider h4{
+  background-color: #5f4566;
+  font-weight: bold;
+  color: #fff;
+  padding: 12px 0 13px 0;
+  border-radius: 55px;
+  text-align: center;
+  margin: 44px 0 0 0;
+}
+
+.slider h4:hover{
+  background-color: #70547a;
+}
+
+
+
+
+/* ATUAÇÃO */ /* ATUAÇÃO */ /* ATUAÇÃO */ /* ATUAÇÃO */ /* ATUAÇÃO */ /* ATUAÇÃO */ 
+
+.atuacao{
+  background-color: #fae9f2;
+  padding: 55px 0;
+}
+
+.atuacao h1{
+  color: #5f4566;
+  font-weight: bold;
+}
+
+.atuacao h3{
+  color: #727176;
+  font-weight: normal;
+  font-size: 1.4rem;
+  padding: 0 0 55px 0;
+} 
+
+.card-atuacao{
+  background-color: #fff;
+  border-radius: 18px;
+  padding: 25px;
+  margin: 0 0 23px 0;
+}
+
+.card-atuacao img{
+  width: 90px;
+}
+
+.card-atuacao h4{
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #5f4566;
+}
+
+.card-atuacao h5{
+  font-size: 1.2rem;
+  font-weight: normal;
+  text-align: justify;
+  color: #868589;
+}
+
+.atuacao a{
+  text-decoration: none;
+}
+
+.atuacao h2{
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #5f4566;
+  color: #fff;
+  padding: 13px 0 14px 0;
+  border-radius: 55px;
+  margin: 33px 0 0 0;
+}
+
+.atuacao h2:hover{
+  background-color: #70547a;
+}
+
+
+
+/* DRA.NATÁLIA */ /* DRA.NATÁLIA */ /* DRA.NATÁLIA */ /* DRA.NATÁLIA */ /* DRA.NATÁLIA */
+
+.dra-natalia{
+  background-color: #674367;
+  padding: 70px 0 60px 0;
+}
+
+.dra-natalia h1{
+  font-weight: bold;
+  color: #f5e7f1;
+}
+
+.dra-natalia h3{
+  font-weight: bold;
+  color: #f5e7f1;
+}
+
+.dra-natalia h5{
+  font-weight: normal;
+  color: #fff;
+  margin: 0 0 45px 0;
+  text-align: justify;
+}
+
+.dra-natalia a{
+  text-decoration: none;
+}
+
+.dra-natalia h2{
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #fff;
+  color: #674367;
+  padding: 13px 0 14px 0;
+  border-radius: 55px;
+  margin: 55px 0 0 0;
+}
+
+.dra-natalia h2:hover{
+  background-color: #edd4e5;
+}
+
+
+
+/* FEEDBACKS */ /* FEEDBACKS */ /* FEEDBACKS */ /* FEEDBACKS */ /* FEEDBACKS */
+
+.feedbacks{
+  background-color: #f5e7f1;
+  padding: 55px 0 65px 0;
+}
+
+.feedbacks h1{
+  font-weight: bold;
+  color: #5f4566;
+}
+
+.feedbacks h3{
+  font-weight: normal;
+  font-size: 1.4rem;
+  color: #727176;
+}
+
+.feedbacks a{
+  text-decoration: none;
+  color: #727176;
+  font-weight: bold;
+}
+
+.feedbacks .card-feedback{
+  background-color: #fff;
+  padding: 22px;
+  border-radius: 12px;
+  margin: 33px 0 0 0;
+}
+
+.feedbacks .card-feedback img{
+  width: 250px;
+  margin: 0 0 12px 0;
+}
+
+.feedbacks .card-feedback h5{
+  font-weight: normal;
+  font-size: 1.1rem;
+  color: #727176;
+  text-align: justify;
+}
+
+
+
+/* TRATAMENTOS */ /* TRATAMENTOS */ /* TRATAMENTOS */ /* TRATAMENTOS */ /* TRATAMENTOS */
+
+.tratamentos{
+  background-color: #f9f0f6;
+  padding: 55px 0;
+}
+
+.tratamentos h1{
+  font-weight: bold;
+  color: #5f4566;
+}
+
+.tratamentos h3{
+  font-weight: normal;
+  font-size: 1.4rem;
+  color: #727176;
+  margin: 0 0 33px 0;
+}
+
+.tratamentos h4{
+  margin: 33px 0 10px 0;
+  font-weight: bold;
+  color: #5f4566;;
+}
+
+.tratamentos h5{
+  font-weight: normal;
+  font-size: 1.3rem;
+  color: #727176;
+  text-align: justify;
+}
+
+.tratamentos a{
+  text-decoration: none;
+}
+
+.tratamentos h2{
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #5f4566;
+  color: #fff;
+  padding: 13px 0 14px 0;
+  border-radius: 55px;
+  margin: 55px 0 0 0;
+}
+
+.tratamentos h2:hover{
+  background-color: #70547a;
+}
+
+
+
+/* CONSULTÓRIO */ /* CONSULTÓRIO */ /* CONSULTÓRIO */ /* CONSULTÓRIO */ /* CONSULTÓRIO */
+
+.consultorio{
+  padding: 55px 0;
+  color: #fff;
+  background-color: #5f4566;
+}
+
+.consultorio .titulo{
+  margin: 0 0 55px 0;
+}
+
+.consultorio .titulo h1{
+  font-weight: bold;
+}
+
+.consultorio .titulo h3{
+  font-weight: normal;
+  font-size: 1.4rem;
+}
+
+.consultorio h4{
+  font-weight: bold;
+  color: #f1deeb;
+  margin: 0 0 22px 0;
+}
+
+.consultorio h5{
+  font-weight: normal;
+}
+
+.consultorio h5 span{
+  font-weight: bold;
+  color: #f1deeb;
+}
+
+
+
+/* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */
+
+.footer{
+    background-color: #583e60;
+    padding: 77px;
+}
+
+.footer h4{
+  padding: 33px 0 0 0;
+  font-weight: bold;
+  color: #f1deeb;
+}
+
+.footer h5{
+  color: #fff;
+}
+
+
+
+
+/* LAST-SECTION */ /* LAST-SECTION */ /* LAST-SECTION */ /* LAST-SECTION */ /* LAST-SECTION */
+  
+  .last-section{
+    background-color: #5f4566;
+    color: #fff;
+    padding: 5px 0 2px 0;
+  }
+
+  .last-section a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .last-section h5{
+    font-weight: normal;
+    font-size: 1rem;
+  }
+
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//* MIDIA QUERIES *//* MIDIA QUERIES *//**//* MIDIA QUERIES *//* MIDIA QUERIES *//* MIDIA QUERIES */
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+@media(max-width: 1300px){
+
+  .navbar .collapse .navbar-nav .nav-item .nav-link{
+    font-size: 0.9rem;
+  }
+
+}
+
+
+@media(max-width: 1200px){
+
+  .navbar .collapse .navbar-nav .nav-item .nav-link{
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+  .slider h1{
+    font-size: 3.1rem;
+  }
+
+  .slider h4{
+    font-size: 1.2rem;
+  }
+
+}
+
+
+@media(max-width: 1110px){
+
+  .navbar .collapse .navbar-nav .nav-item .nav-link{
+    font-size: 0.8rem;
+  }
+}
+
+@media(max-width: 1033px){
+
+  .navbar .collapse .navbar-nav .nav-item .nav-link{
+    font-size: 0.7rem;
+  }
+
+  .footer br{
+    display: none;
+  }
+
+}
+
+
+@media(max-width: 992px){
+
+  .navbar .collapse .navbar-nav .nav-item .nav-link{
+    color: #727176;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0.5rem 0;
+    border: 0;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover{
+    color: #3D3D3F;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link span{
+    color: #5f4566;
+    background-color: transparent;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    border: 0;   
+
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link span:hover{
+    color: #70547a;
+    background-color: transparent;
+}
+
+  .slider{
+    padding: 65px 0 0 0;
+    text-align: center;
+  }
+
+  .slider h1{
+    font-size: 3.7rem;
+  }
+
+  .card-atuacao{
+    padding: 37px;
+  }
+
+  .card-atuacao h4{
+    padding: 10px 0 7px 0;
+  }
+
+  .dra-natalia h1{
+    padding: 55px 0 0 0;
+  }
+
+  .feedbacks .card-feedback{
+    text-align: center;
+  }
+
+  .consultorio{
+    text-align: center;
+  }
+
+  .consultorio .col-lg-4{
+    padding: 0 0 55px 0;
+  }
+
+  .footer{
+    text-align: center;
+  }
+
+  .last-section{
+    text-align: center;
+  }
+
+}
+
+
+@media(max-width: 576px){
+
+  .slider h1{
+    font-size: 3.2rem;
+  }
+
+  h1{
+    font-size: 2.2rem;
+  }
+
+  .atuacao h3{
+    font-size: 1.2rem
+  }
+
+  .feedbacks h3{
+    font-size: 1.2rem
+  }
+
+  .tratamentos h3{
+    font-size: 1.2rem
+  }
+
+  .consultorio .titulo h3{
+    font-size: 1.2rem
+  }
+
+  .dra-natalia h5{
+    font-size: 1.15rem;
+  }
+
+  .tratamentos h5{
+    font-size: 1.15rem;
+  }
+
+  .tratamentos h4{
+    font-size: 1.4rem;
+  }
+
+  .atuacao h2{
+    font-size: 1.2rem;
+  }
+
+  .dra-natalia h2{
+    font-size: 1.2rem;
+  }
+
+  .tratamentos h2{
+    font-size: 1.2rem;
+  }
+
+  .consultorio{
+    padding: 55px 15px;
+  }
+
+}
+
+
+@media(max-width: 470px){
+
+  .slider h1{
+    font-size: 3.5rem;
+    line-height: 1;
+    padding: 10px 0;
+  }
+
+}
+
+
+@media(max-width: 470px){
+
+  .slider h4{
+    font-size: 1rem;
+  }
+
+  .atuacao h2{
+    font-size: 1rem;
+  }
+
+  .dra-natalia h2{
+    font-size: 1rem;
+  }
+
+  .tratamentos h2{
+    font-size: 1rem;
+  }
+
+}
+
+
+@media(max-width: 400px){
+
+  .slider h5{
+    font-size: 1.1rem;
+  }
+
+  h1{
+    font-size: 2.1rem;
+  }
+
+}
+
+
+@media(max-width: 350px){
+
+  h1{
+    font-size: 1.8rem;
+  }
+
+  .slider h1 {
+    font-size: 2.5rem;
+  }
+
+  .slider h5 {
+    font-size: 1rem
+  }
+
+    .slider h4{
+    font-size: 0.85rem;
+  }
+
+  .atuacao h2{
+    font-size: 0.85rem;
+  }
+
+  .dra-natalia h2{
+    font-size: 0.85rem;
+  }
+
+  .tratamentos h2{
+    font-size: 0.85rem;
+  }
+
+  .atuacao{
+    padding: 0 0 55px 0;
+  }
+
+  .card-atuacao h4 {
+    font-size: 1.2rem;
+  }
+
+  .card-atuacao h5 {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .dra-natalia h5{
+    text-align: left;
+    font-size: 1.1rem;
+  }
+
+  .dra-natalia h1{
+    font-size: 1.9rem;
+  }
+
+  .dra-natalia h3{
+    font-size: 1.3rem;
+  }
+
+  .tratamentos h5 {
+    font-size: 1.1rem;
+  }
+
+  .footer h5{
+    font-size: 1.1rem;
+  }
+
+  .last-section h5{
+    font-size: 0.8rem;
+  }
+
+}
