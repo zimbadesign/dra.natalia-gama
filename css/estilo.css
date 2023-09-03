@@ -324,6 +324,51 @@ html{scroll-behavior: smooth;}
 
 
 
+/* EBOOK */ /* EBOOK */ /* EBOOK */ /* EBOOK */ /* EBOOK */
+
+.ebook{
+  padding: 44px;
+  background-color: #f5e7f1;
+}
+
+.ebook img{
+  zoom: 90%;
+}
+
+.ebook h1{
+  font-weight: bold;
+  color: #5f4566;
+  padding: 33px 0 0 0;
+}
+
+.ebook h3{
+    font-weight: normal;
+    font-size: 1.3rem;
+    color: #727176;
+    text-align: justify;
+    padding: 23px 0;
+}
+
+.ebook a{
+  text-decoration: none;
+}
+
+.ebook h4{
+  font-size: 1.4rem;
+  font-weight: bold;
+  background-color: #5f4566;
+  color: #fff;
+  padding: 15px 0 16px 0;
+  border-radius: 55px;
+}
+
+.ebook h4:hover{
+  background-color: #70547a;
+}
+
+
+
+
 /* CONSULTÓRIO */ /* CONSULTÓRIO */ /* CONSULTÓRIO */ /* CONSULTÓRIO */ /* CONSULTÓRIO */
 
 .consultorio{
